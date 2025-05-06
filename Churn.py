@@ -52,7 +52,7 @@ def User_input_feature():
 df_feature = User_input_feature()
 
 #memamnggil model
-model = joblib.load("model_Xgboost_joblib")
+model = joblib.load("model_xgboost_joblib")
 
 #predict
 pred = model.predict(df_feature)
